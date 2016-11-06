@@ -1,5 +1,9 @@
 # TeXCompiler #
 This is a [Notepad++ plugin](https://notepad-plus-plus.org/contribute/plugin-howto.html) which compiles `.tex` files in the editor.
+
+## Release ##
+See the `rel` folder for precompiled `.dll`!
+
 ## Compile ##
 Use [VS Command Prompt](https://msdn.microsoft.com/en-us/library/f2ccy3wt.aspx) (mind your Notepad++ executable: x86 or 64)
 For example.
