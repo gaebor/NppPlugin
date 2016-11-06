@@ -1,0 +1,4 @@
+PRE_BUILD_EVENT	TASKKILL /fi "USERNAME ne borbely" /im AcroRd32.exe
+BUILD_EVENT	pdflatex "$(FileName).tex" -output-directory $(CURRENTDIRECTORY)
+POST_BUILD_EVENT	start $(FileName).pdf
+OPTION	-quiet
